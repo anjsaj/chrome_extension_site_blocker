@@ -1,0 +1,14 @@
+{
+  "name": "Site Blocker",
+  "description": "Block the site redirect to configured site",
+  "version": "2.0",
+  "permissions": [
+    "<all_urls>","webRequest","webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["config.js", "block.js"],
+    "persistent": true
+  },
+
+  "manifest_version": 2
+}
